@@ -3,7 +3,8 @@
 import { test as base, expect } from "@playwright/test"
 import type { Page } from "@playwright/test"
 import "dotenv/config"
-
+import dotenv from 'dotenv';
+dotenv.config({ path: '../web/.env' });
 
 
 type TestFixtures = {
@@ -37,3 +38,8 @@ export const test = base.extend<TestFixtures>({
 })
 
 export { expect }
+
+// Add one to deactivate, can record a cursor to record actions. 
+test('deactivate', async ({ page }) => {
+  
+})

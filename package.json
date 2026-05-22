@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "��#\u0000 \u0000E\u00002\u0000E\u0000-\u0000t\u0000e\u0000m\u0000p\u0000l\u0000a\u0000t\u0000e\u0000\r\u0000 \u0000",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mcgg16/E2E-template.git"
@@ -17,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/mcgg16/E2E-template/issues"
   },
-  "homepage": "https://github.com/mcgg16/E2E-template#readme"
+  "homepage": "https://github.com/mcgg16/E2E-template#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.1"
+  }
 }

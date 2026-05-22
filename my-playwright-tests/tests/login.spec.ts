@@ -21,3 +21,5 @@ test('user can login with valid credentials', async ({ page }) => {
   await expect(page.getByRole('heading', { name: 'Admin — Manage Users' })).toBeVisible();
 
 });
+
+// Could add context like JWT to not need to log in every time. We'll create a fixture aka will do an activity before doing another test 

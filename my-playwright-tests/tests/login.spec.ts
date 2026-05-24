@@ -1,4 +1,8 @@
 import { test, expect } from '@playwright/test';
+import type { Page } from '@playwright/test'; 
+import "dotenv/config"
+import dotenv from 'dotenv';
+dotenv.config({ path: '../web/.env' });
 
 test('user can login with valid credentials', async ({ page }) => {
   // Navigate to app

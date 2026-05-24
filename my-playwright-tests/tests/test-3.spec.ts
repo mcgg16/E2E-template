@@ -13,7 +13,4 @@ test('test', async ({ page }) => {
   await page.getByRole('button', { name: 'Deactivate' }).first().click();
   await page.getByRole('button', { name: 'Activate' }).first().click();
   await page.getByRole('button', { name: 'Deactivate' }).nth(1).click();
-  await page.getByRole('button', { name: 'Deactivate' }).nth(1).click();
-  await page.getByRole('button', { name: 'Activate' }).nth(2).click();
-  await page.getByRole('button', { name: 'Activate' }).nth(2).click();
 });
